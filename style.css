@@ -1,0 +1,159 @@
+.principal{
+	background: #a8d6ee;
+	padding: 30px;
+}
+
+
+header{
+    background: #ffd4d7;
+}
+.caixa img{
+    max-width:200px;
+    max-height:150px;
+    width:auto;
+    height:auto;
+}
+
+.caixa{
+    position:relative;
+    width:940;
+    margin: 0 auto;
+}
+
+nav{
+    position:absolute;
+    top:110px;
+    right:0;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #a8d6ee;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+}
+nav a:hover{
+    color:#f3aba3;
+}
+
+.sabores{
+    width:940px;
+    margin: 0 auto;
+    padding:50px 0;
+}
+
+.sabores li{
+    display: inline-block;
+    text-align:center;
+    width:30%;
+    vertical-align:top;
+    margin: 0 1.5%;
+    padding:30px 20px;
+    box-sizing:border-box;
+    border:2px solid #a8d6ee;
+    border-radius:10px;
+}
+
+.sabores li:hover{
+    border-color:#ffcbdb;
+}
+
+.sabores li:hover h2{
+    font-size:34px;
+}
+
+.sabores h2{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.sabores-descricao{
+    font-size:18px;
+
+}
+
+.sabores-preco{
+    font-size:22px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+footer{
+    text-align:center;
+    background: url("rosa.jpg");
+    padding:40px 0;
+}
+
+.copyright{
+    color: #95c4ca;
+    font-size:13px;
+    margin:20px 0 0;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size:20px;
+    margin: 0 0 10px;
+}
+
+form input, form textarea {
+    display:block;
+    margin: 0 0 20px;
+    padding:10px 25px;
+    width: 50%;
+}
+
+.enviar{
+    width:40;
+    padding:15px 0;
+    background: #a8d6ee;
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+    border:none;
+    border-radius:5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background:#f3aba3;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #f3aba3;
+    color:white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #95c4ca;
+    padding:8px 15px;
+}
+
+.titulo-principal{
+ text-align:center;
+ font-size:2em ;
+ margin: 0 0 1em;
+}
+
